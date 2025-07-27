@@ -11,10 +11,14 @@ body{
 }
 
 .activities-img:hover{
-    border-color: #F1FAEE;
-    transition: all 200ms ease-in-out;
+    border: 5px solid #a7965d;
+    transition: all 300ms ease-in-out;
 }
 
+#activities h4:hover, #activities p:hover {
+    color: #457B9D;
+    transition: all 500ms ease-in-out;
+}
 
 #hero{
     display: flex;
@@ -46,12 +50,14 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    cursor: pointer;
   
 }
 
 .about-anambra{
   padding:39px 0 ;
   background-color: #F1FAEE;
+  color: #a7965d;
 }
 
 .activities-intro {
@@ -70,14 +76,10 @@ body{
     margin: 50px auto;
     padding: 20px;
     width: 450px;
-    background-color: #A8DADC;
+    background-color: #a7965d;
     border-bottom: 5px solid #1D3557;
     border-radius: 10px;
-    color: #1D3557;
-}
-
-.my-info{
-    padding: 10px;
+    color: #F1FAEE;
 }
 
 .avatar{
@@ -88,6 +90,14 @@ body{
 .my-info h3{
     font-size: 24px;
 }
+
+.my-info h3:hover, .my-info p:hover, .my-info h4:hover {
+   color: #1D3557;
+   transition: all 300ms linear;
+   cursor: pointer;
+
+}
+
 .my-info p{
     font-style: italic;
 }
