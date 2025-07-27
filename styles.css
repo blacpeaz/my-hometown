@@ -10,6 +10,12 @@ body{
     border-radius: 50%;
 }
 
+.activities-img:hover{
+    border-color: #F1FAEE;
+    transition: all 200ms ease-in-out;
+}
+
+
 #hero{
     display: flex;
     flex-direction: column;
